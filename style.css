@@ -15,13 +15,3 @@ a {
 img {
   width: 100%;
   object-fit: cover; }
-
-.paragraph {
-  font-size: 1.2rem;
-  text-align: center;
-  background-color: grey; }
-
-.container {
-  background-color: red;
-  width: 60%;
-  padding: 4rem; }

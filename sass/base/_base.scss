@@ -4,12 +4,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
+  outline: none;
 }
 
 body {
   font-family: "Montserrat", Helvetica;
-  font-size: 62.5%;
+  // font-size: 62.5%;
   line-height: 2rem;
+  color: #fff;
 }
 
 a {
@@ -19,4 +22,3 @@ img {
   width: 100%;
   object-fit: cover;
 }
-

@@ -2,7 +2,6 @@ header {
   // background-image: url(/img/tech_header_bg.jpg);
   // opacity: 100;
   width: 100%;
-  height: 100vh;
   // background-size: cover;
   // background-position: center;
   // position: relative;
@@ -13,7 +12,7 @@ header {
   position: absolute;
   right: 60px;
   top: 40px;
-  display: nokne;
+  display: none;
   z-index: 2;
 }
 .toggle_btn span {
@@ -88,5 +87,31 @@ nav {
   .background_clip {
     width: auto;
     height: 100%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .toggle_btn {
+    display: block;
+  }
+  .nav_list_container {
+    display: none;
+    width: 100%;
+    border-top: 1px solid #000;
+    padding: 2rem;
+    padding-top: 20px;
+    margin-top: 50px;
+  }
+  .nav_list_container ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav_list_container.show {
+    display: block;
+    background-color: var(--primary-color);
+    align-items: center;
+    z-index: 99;
+  }
+  .logo_container.hide {
+    display: none;
   }
 }

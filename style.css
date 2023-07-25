@@ -77,7 +77,8 @@ nav {
 .nav_list_container ul li:hover {
   border-bottom: 3px solid var(--secondary-color);
   padding: 10px;
-  transition: 400ms all; }
+  transition: 400ms all;
+  color: var(--primary-color); }
 
 .logo_d {
   color: var(--primary-color); }
@@ -89,7 +90,11 @@ nav {
   transform: translateY(-50%);
   z-index: 2;
   line-height: 3rem;
+  transition: 400ms;
   background-color: rgba(0, 0, 0, 0.6); }
+
+.header_text_container:hover {
+  filter: brightness(4); }
 
 .header_text {
   font-size: 60px;
@@ -127,7 +132,8 @@ nav {
     margin-top: 50px; }
   .nav_list_container ul {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    background-color: var(); }
   .nav_list_container.show {
     display: block;
     background-color: var(--primary-color);

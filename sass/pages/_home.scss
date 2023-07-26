@@ -1,11 +1,5 @@
 header {
-  // background-image: url(/img/tech_header_bg.jpg);
-  // opacity: 100;
-  width: 100%;
-  // background-size: cover;
-  // background-position: center;
-  // position: relative;
-  // overflow: hidden;
+  height: 100vh;
 }
 .toggle_btn {
   width: 35px;
@@ -45,6 +39,7 @@ nav {
 }
 .nav_list_container ul li {
   color: #fff;
+  list-style: none;
 }
 .nav_list_container ul li:hover {
   border-bottom: 3px solid var(--secondary-color);

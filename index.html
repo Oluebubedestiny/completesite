@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header id="header">
+    <header id="home">
       <video
         src="/video/design_-_48420 (1080p).mp4"
         loop
@@ -30,7 +30,7 @@
             <div class="nav_list_container">
               <ul class="main_list">
                 <a href="#home"><li class="list_items">Home</li></a>
-                <a href=""><li class="list_items">About</li></a>
+                <a href="#about"><li class="list_items">About</li></a>
                 <a href=""><li class="list_items">Services</li></a>
                 <a href=""><li class="list_items">Portfolio</li></a>
                 <a href=""><li class="list_items">Contact</li></a>
@@ -38,7 +38,6 @@
             </div>
           </nav>
         </div>
-
         <div class="header_text_container">
           <p>SOFTWARE ENGINEER</p>
           <h1 class="header_text">
@@ -48,6 +47,64 @@
         </div>
       </div>
     </header>
+    <main>
+      <section id="about">
+        <div class="about_container container">
+          <div class="about_img_container">
+            <img
+              src="./img/about_me_img.png"
+              alt="picture of Destiny"
+              class="about_img"
+            />
+          </div>
+          <div class="about_des_container">
+            <h1 class="about_heading">About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,
+              repellat neque harum ipsum labore consectetur quaerat iste
+              aspernatur, iusto nostrum fugiat! Commodi nemo iusto minus sequi
+              libero nisi at ex molestias vero id! Placeat aspernatur delectus,
+              similique nisi quasi recusandae, est ipsam obcaecati nihil amet
+              esse, ut facilis officiis iusto.
+            </p>
+            <div class="titles_container">
+              <p class="tab_links skill_co skill_link">Skills</p>
+              <p class="tab_links exp_co">Experience</p>
+              <p class="tab_links edu_co">Education</p>
+            </div>
+            <div class="tab_content skill_con" id="skills">
+              <ul>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>App Development</span><br />Building android/ios apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab_content exp_con" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - current</span><br />Web app Development Training
+                  at Kinatech Services
+                </li>
+                <li>
+                  <span>2023</span><br />
+                  internship at Kinatech Services
+                </li>
+              </ul>
+            </div>
+            <div class="tab_content" id="education">
+              <ul>
+                <li>
+                  <span>2022</span><br />Web app Development Training at
+                  Kinatech Services
+                </li>
+                <li><span>2023</span><br />BSC from University of Abuja</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="/script.js"></script>
   </body>
 </html>

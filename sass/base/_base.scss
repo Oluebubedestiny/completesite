@@ -7,7 +7,9 @@
   // list-style: none;
   outline: none;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Montserrat", Helvetica;
   // font-size: 62.5%;

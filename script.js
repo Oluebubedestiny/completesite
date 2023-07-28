@@ -12,9 +12,20 @@ const edu = document.getElementById("education");
 toggle.addEventListener("click", function () {
   const navbar = document.querySelector(".nav_list_container");
   const logo = document.querySelector(".logo_container");
+  const header = document.querySelector(".header_text_container");
   navbar.classList.toggle("show");
   logo.classList.toggle("hide");
+  header.classList.toggle("blur");
 });
+
+// skill.addEventListener("click", () => {
+//   if (skill == tab_content) {
+//     ski.classList.add("skill_con");
+//   }
+// });
+// experience.addEventListener("click", () => {
+//   if()
+// })
 
 skill.addEventListener("click", () => {
   tab_links.classList.remove("skill_link");

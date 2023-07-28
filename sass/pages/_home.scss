@@ -1,11 +1,12 @@
 header {
   height: 100vh;
 }
+
 .toggle_btn {
   width: 35px;
   position: absolute;
-  right: 60px;
-  top: 40px;
+  right: 80px;
+  top: 10px;
   display: none;
   z-index: 2;
 }
@@ -13,15 +14,21 @@ header {
   display: inline-block;
   width: 100%;
   height: 2px;
-  background-color: #fff;
+  background-color: rgb(75, 64, 64);
   float: left;
   margin-bottom: 8px;
 }
 nav {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 5%;
+  // justify-content: space-between;
   align-items: center;
   margin-top: 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
 }
 .logo_container {
   font-size: 20px;
@@ -89,17 +96,18 @@ nav {
     height: 100%;
   }
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 760px) {
   .toggle_btn {
     display: block;
   }
   .nav_list_container {
     display: none;
-    width: 100%;
+    width: 20rem;
     border-top: 1px solid #000;
     padding: 2rem;
     padding-top: 20px;
     margin-top: 50px;
+    z-index: 99;
   }
   .nav_list_container ul {
     display: flex;
@@ -114,5 +122,8 @@ nav {
   }
   .logo_container.hide {
     display: none;
+  }
+  .header_text_container.blur {
+    z-index: -1;
   }
 }

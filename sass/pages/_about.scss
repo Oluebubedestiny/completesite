@@ -1,11 +1,15 @@
 #about {
-  // background-image: url(/img/tech_bg_2.jpg);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-position: center;
-  // position: relative;
-  // overflow: hidden;
-  background: #000;
+  background-image: url(/img/tech.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+  // background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .about_container {
   display: flex;
@@ -24,7 +28,7 @@
 }
 .titles_container {
   display: flex;
-  margin: 20px 0 40px;
+  margin: 15px 0 40px;
 }
 .tab_links {
   margin-right: 50px;
@@ -59,4 +63,39 @@
 }
 .tab_content.skill_con {
   display: block;
+}
+@media only screen and (max-width: 600px) {
+  .about_container {
+    display: block;
+    align-items: center;
+  }
+  .about_img {
+    width: 15rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .about_container {
+    display: block;
+    align-items: center;
+  }
+  .about_img {
+    width: 40rem;
+  }
+}
+@media only screen and (min-width: 991px) {
+  .about_container {
+    display: block;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .about_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+  }
+  .about_img {
+    width: 30rem;
+  }
 }

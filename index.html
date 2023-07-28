@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
   </head>
   <body>
     <header id="home">
@@ -17,13 +21,14 @@
         class="background_clip"
       ></video>
       <div class="container">
+        <!-- start of navbar -->
         <div class="navbar_toggle_container">
-          <div class="toggle_btn container">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
           <nav>
+            <div class="toggle_btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
             <div class="logo_container">
               <h1><span class="logo_d">D</span>extitech.</h1>
             </div>
@@ -31,13 +36,14 @@
               <ul class="main_list">
                 <a href="#home"><li class="list_items">Home</li></a>
                 <a href="#about"><li class="list_items">About</li></a>
-                <a href=""><li class="list_items">Services</li></a>
+                <a href="#services"><li class="list_items">Services</li></a>
                 <a href=""><li class="list_items">Portfolio</li></a>
                 <a href=""><li class="list_items">Contact</li></a>
               </ul>
             </div>
           </nav>
         </div>
+        <!-- end of navbar -->
         <div class="header_text_container">
           <p>SOFTWARE ENGINEER</p>
           <h1 class="header_text">
@@ -47,7 +53,9 @@
         </div>
       </div>
     </header>
+    <!-- end of header section -->
     <main>
+      <!-- start of about section -->
       <section id="about">
         <div class="about_container container">
           <div class="about_img_container">
@@ -92,7 +100,7 @@
                 </li>
               </ul>
             </div>
-            <div class="tab_content" id="education">
+            <div class="tab_content edu_con" id="education">
               <ul>
                 <li>
                   <span>2022</span><br />Web app Development Training at
@@ -100,6 +108,44 @@
                 </li>
                 <li><span>2023</span><br />BSC from University of Abuja</li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of about section -->
+      <!-- start of service section -->
+      <section id="services">
+        <div class="container">
+          <div class="ser_heading_con">
+            <h1>My Services</h1>
+          </div>
+          <div class="ser_item_con">
+            <div class="web_con gen_con">
+              <i class="uil uil-link gen_icon"></i>
+              <h2>Web Development</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptates recusandae magni eligendi, veniam excepturi similique
+                consequuntur consequatur ea
+              </p>
+            </div>
+            <div class="app_con gen_con">
+              <i class="uil uil-android gen_icon"></i>
+              <h2>App Development</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptates recusandae magni eligendi, veniam excepturi similique
+                consequuntur consequatur ea
+              </p>
+            </div>
+            <div class="email_con gen_con">
+              <i class="uil uil-envelope gen_icon"></i>
+              <h2>Email Copywriting</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptates recusandae magni eligendi, veniam excepturi similique
+                consequuntur consequatur ea
+              </p>
             </div>
           </div>
         </div>

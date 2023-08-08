@@ -1,0 +1,91 @@
+#portfolio {
+  height: 100vh;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  background-color: #081b29;
+}
+.works_item_con {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 1%;
+  padding-top: 2rem;
+}
+.port_hd {
+  color: #00abf0;
+}
+.works {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.works img {
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+  height: 14rem;
+  transition: transform 0.5s;
+}
+.layer {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+.layer h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+a .works_btn {
+  width: 100%;
+  padding: 8px;
+  margin-top: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #ff004f;
+  color: #fff;
+  transition: 400ms all;
+}
+a .works_btn:hover {
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 2rem;
+  padding: 10px;
+  background-color: #000;
+  color: darkred;
+}
+.country_site a .works_btn {
+  margin-top: 3px;
+}
+
+.works:hover img {
+  transform: scale(1.1);
+}
+.works:hover .layer {
+  height: 100%;
+}
+.see_btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #00abf0;
+  transition: 0.5s;
+}
+.see_btn:hover {
+  background-color: #ff004f;
+}

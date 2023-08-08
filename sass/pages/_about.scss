@@ -1,12 +1,12 @@
 #about {
-  background-image: url(/img/tech.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
+  // background-image: url(/img/tech.avif);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // position: relative;
+  // overflow: hidden;
   height: 100vh;
-  // background: #000;
+  background: #081b29;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,6 +25,7 @@
 .about_heading {
   padding-bottom: 1rem;
   font-size: 40px;
+  color: #00abf0;
 }
 .titles_container {
   display: flex;

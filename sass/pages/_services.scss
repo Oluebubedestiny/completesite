@@ -1,15 +1,16 @@
 #services {
-  margin-top: 4rem;
-  height: 100vh;
+  // height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(/img/tech.avif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
+  padding-top: 4rem;
+  // background-image: url(/img/tech.avif);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center;
+  // position: relative;
+  // overflow: hidden;
+  background-color: #081b29 !important;
 }
 .ser_heading_con {
   font-size: 30px;
@@ -48,4 +49,22 @@
 }
 .gen_icon {
   font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+  #services {
+    display: block;
+    background-color: #081b29 !important;
+  }
+  .ser_item_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gen_con {
+    padding: 20px;
+    margin: 10px;
+  }
+  // .service_hd {
+  //   margin-top: 2rem;
+  // }
 }

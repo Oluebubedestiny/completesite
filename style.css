@@ -186,6 +186,12 @@ img {
   color: #ff004f;
   font-weight: 800; }
 
+@media only screen and (max-width: 991px) {
+  .contact_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
 header {
   height: 100vh; }
 
@@ -316,7 +322,8 @@ nav {
   background-color: #081b29 !important; }
 
 .ser_heading_con {
-  font-size: 30px; }
+  font-size: 30px;
+  color: #00abf0; }
 
 .ser_item_con {
   display: grid;
@@ -360,10 +367,10 @@ nav {
   .ser_item_con {
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    gap: 1rem; }
   .gen_con {
-    padding: 20px;
-    margin: 10px; } }
+    padding: 20px; } }
 
 #portfolio {
   display: flex;
@@ -453,3 +460,12 @@ a .works_btn:hover {
 
 .see_btn:hover {
   background-color: #ff004f; }
+
+@media only screen and (max-width: 991px) {
+  .works_item_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; }
+  .country_site a .works_btn {
+    margin-top: 1px; } }

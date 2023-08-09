@@ -89,3 +89,14 @@ a .works_btn:hover {
 .see_btn:hover {
   background-color: #ff004f;
 }
+@media only screen and (max-width: 991px) {
+  .works_item_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .country_site a .works_btn {
+    margin-top: 1px;
+  }
+}

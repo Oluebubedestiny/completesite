@@ -14,6 +14,7 @@
 }
 .ser_heading_con {
   font-size: 30px;
+  color: #00abf0;
 }
 .ser_item_con {
   display: grid;
@@ -59,10 +60,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 1rem;
   }
   .gen_con {
     padding: 20px;
-    margin: 10px;
   }
   // .service_hd {
   //   margin-top: 2rem;

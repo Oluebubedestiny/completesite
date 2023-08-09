@@ -1,4 +1,5 @@
 const toggle = document.querySelector(".toggle_btn");
+const nav = document.querySelector("nav");
 const skill_btn = document.querySelector(".skill_link");
 const tab_links = document.querySelector(".tab_links");
 const tab_content = document.querySelector(".tab_content");
@@ -16,6 +17,12 @@ toggle.addEventListener("click", function () {
   navbar.classList.toggle("show");
   logo.classList.toggle("hide");
   header.classList.toggle("blur");
+});
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 0) {
+    nav.classList.add("windows_scroll");
+  } else nav.classList.remove("windows_scroll");
 });
 
 // skill.addEventListener("click", () => {

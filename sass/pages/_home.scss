@@ -57,6 +57,10 @@ nav {
 .logo_d {
   color: var(--primary-color);
 }
+.windows_scroll {
+  // background-color: var(--primary-color);
+  box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
+}
 .header_text_container {
   position: absolute;
   top: 50%;

@@ -58,7 +58,8 @@ nav {
   color: var(--primary-color);
 }
 .windows_scroll {
-  // background-color: var(--primary-color);
+  background: transparent;
+  width: 100%;
   box-shadow: 0 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
 }
 .header_text_container {
@@ -129,5 +130,8 @@ nav {
   }
   .header_text_container.blur {
     z-index: -1;
+  }
+  .windows_scroll {
+    box-shadow: none;
   }
 }

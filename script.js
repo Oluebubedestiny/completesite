@@ -1,7 +1,7 @@
 const toggle = document.querySelector(".toggle_btn");
 const nav = document.querySelector("nav");
 
-toggle.addEventListener("click", function () {
+toggle.addEventListener("click", () => {
   const navbar = document.querySelector(".nav_list_container");
   const logo = document.querySelector(".logo_container");
   const header = document.querySelector(".header_text_container");

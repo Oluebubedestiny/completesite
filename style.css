@@ -175,7 +175,12 @@ img {
   padding-top: 4rem;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  background-image: url(/img/tech_bg_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; }
 
 .contact_con {
   display: grid;

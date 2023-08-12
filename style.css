@@ -58,50 +58,97 @@ img {
   font-size: 40px;
   color: #00abf0; }
 
-.titles_container {
+.skills_hd {
+  padding-top: 1rem;
+  color: #00abf0; }
+
+.progress_con {
+  margin: 1rem;
+  display: grid; }
+
+.progress_bar {
+  background: #ff004f;
+  width: 300px;
+  height: 10px;
+  border-radius: 5px; }
+
+.progress_bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+  background: blue;
+  margin-top: 1rem; }
+
+.progress_bar div span {
+  height: 40px;
+  width: 40px;
+  font-size: 15px;
+  border: 1px solid blue;
+  border-radius: 50%;
+  background: transparent;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: #fff;
   display: flex;
-  margin: 15px 0 40px; }
+  align-items: center;
+  justify-content: center; }
 
-.tab_links {
-  margin-right: 50px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  position: relative; }
+.front_pro_con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
 
-.tab_links::after {
-  content: "";
-  width: 0;
-  height: 3px;
-  background: var(--primary-color);
-  position: absolute;
-  left: 0;
-  bottom: -8px;
-  transition: 0.5s all; }
+.back_pro_con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem; }
 
-.tab_links.skill_link::after {
-  width: 50%; }
+.html {
+  animation: html 1.5s linear forwards; }
 
-.tab_content ul li {
-  list-style: none;
-  margin: 8px 0; }
+.css {
+  animation: css 1.5s linear forwards; }
 
-.tab_content ul li span {
-  color: var(--primary-color);
-  font-size: 18px; }
+.js {
+  animation: js 1.5s linear forwards; }
 
-.tab_content {
-  display: none; }
+.react {
+  animation: react 1.5s linear forwards; }
 
-.tab_content.skill_con {
-  display: block; }
+@keyframes html {
+  100% {
+    width: 94%; } }
+
+@keyframes css {
+  100% {
+    width: 86%; } }
+
+@keyframes js {
+  100% {
+    width: 74%; } }
+
+@keyframes react {
+  100% {
+    width: 65%; } }
 
 @media only screen and (max-width: 600px) {
   .about_container {
     display: block;
     align-items: center; }
   .about_img {
-    width: 20rem; } }
+    width: 20rem; }
+  .front_pro_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; }
+  .back_pro_con {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between; } }
 
 @media only screen and (min-width: 600px) {
   .about_container {

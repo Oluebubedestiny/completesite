@@ -1,3 +1,39 @@
 body {
   background: #081b29;
 }
+img {
+  width: 50%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container div {
+  position: relative;
+  margin-top: 2rem;
+  left: 20%;
+}
+p {
+  color: #00abf0;
+  font-size: 40px;
+  font-family: sans-serif;
+}
+a button {
+  display: block;
+  align-items: center;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  padding: 10px 20px;
+  border-radius: 6px;
+  background: transparent;
+  color: #00abf0;
+  transition: 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+}
+a button:hover {
+  background-color: #ff004f;
+  border-radius: 2rem;
+}

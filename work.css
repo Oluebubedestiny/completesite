@@ -3,6 +3,7 @@ body {
 }
 img {
   width: 50%;
+  border-radius: 20px;
 }
 .container {
   display: flex;

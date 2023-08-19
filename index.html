@@ -10,6 +10,15 @@
       href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
     />
     <link rel="shortcut icon" href="./img/about_img.jpeg" type="image/x-icon" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("VAflbVRwJeYXp6dJC");
+      })();
+    </script>
   </head>
   <body>
     <header id="home">
@@ -121,27 +130,27 @@
               <i class="uil uil-link gen_icon"></i>
               <h2>Web Development</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptates recusandae magni eligendi, veniam excepturi similique
-                consequuntur consequatur ea
+                I build web applications, scripts with programming languages
+                such as HTML, CSS, JavaScript, and APIs. I plans and delivers
+                software platforms and products across multiple organizational
+                units.
               </p>
             </div>
             <div class="app_con gen_con">
               <i class="uil uil-android gen_icon"></i>
               <h2>App Development</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptates recusandae magni eligendi, veniam excepturi similique
-                consequuntur consequatur ea
+                I build and maintain web and mobile applications for
+                organizations, Oversee the performance of applications to ensure
+                they're always running properly.
               </p>
             </div>
             <div class="email_con gen_con">
               <i class="uil uil-envelope gen_icon"></i>
               <h2>Email Copywriting</h2>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Voluptates recusandae magni eligendi, veniam excepturi similique
-                consequuntur consequatur ea
+                I write and edit content for a variety of projects (including
+                print, web, mobile, video, and social media),
               </p>
             </div>
           </div>
@@ -211,21 +220,31 @@
               <div class="contact_icon">
                 <i class="uil uil-telegram-alt"></i>
               </div>
-              <a href="">oluebubedestiny.o@gmail.com </a>
+              <a href="mailto:oluebubedestiny.o@gmail.com" target="_blank"
+                >oluebubedestiny.o@gmail.com
+              </a>
             </div>
             <div class="contact_info">
               <div class="contact_icon">
                 <i class="uil uil-mobile-android"></i>
               </div>
-              <a href="https://wa.me/09063652206" target="_blank"
-                >09063652206</a
-              >
+              <a href="tel: +2349063652206" target="_blank">09063652206</a>
             </div>
             <div class="contact_main_icon">
-              <a href=""><i class="uil uil-instagram"></i></a>
-              <a href=""><i class="uil uil-twitter"></i></a>
-              <a href=""><i class="uil uil-linkedin"></i></a>
-              <a href=""><i class="uil uil-facebook"></i></a>
+              <a href="https://wa.me/09063652206" target="_blank"
+                ><i class="uil uil-whatsapp"></i
+              ></a>
+              <a href="https://instagram.com/destinyozuzu" target="_blank"
+                ><i class="uil uil-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/destiny-ozuzu-59b454289/"
+                target="_blank"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+              <a href="https://twitter.com/destiny61841323" target="_blank"
+                ><i class="uil uil-twitter"></i
+              ></a>
             </div>
             <div class="contact_btn_container">
               <a href=""><button class="contact_btn">Download Cv</button></a>
@@ -236,24 +255,22 @@
               type="text"
               placeholder="Your Name"
               class="contact_input"
-              required
+              id="name_input"
             />
             <input
               type="text"
               placeholder="Your email"
               class="contact_input"
-              required
+              id="email_input"
             />
             <textarea
-              name=""
-              id=""
+              id="msg_input"
               cols="30"
               rows="10"
               placeholder="Your Message"
               class="contact_input"
-              required
             ></textarea>
-            <div class="send_btn">
+            <div class="send_btn" id="contact_btn">
               <button class="contact_btn">Send</button>
             </div>
           </div>
